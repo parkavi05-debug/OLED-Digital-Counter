@@ -7,13 +7,6 @@ Whenever the push button is pressed, the counter value increments by one, a buzz
 
 The project demonstrates the use of display interfacing, button input handling, buzzer control, and counter logic in embedded systems.
 
----
-
-## Objective
-To design an Arduino-based counter system that increments the count value on each button press and displays the result on an OLED display with buzzer indication.
-
----
-
 ## Components Required
 - Arduino Uno / Nano  
 - OLED Display (SSD1306 128x64 I2C)  
@@ -201,14 +194,279 @@ Count : 5
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/e9319b5d-ffa0-4ae5-802b-f87ff9a05e2f" />
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/4b8af852-6f91-41dd-b039-05b1f30779bd" />
 
+# 2️⃣ Digital Visitor Counter
 
-## Future Improvements
-- Add reset button  
-- Store count in EEPROM memory  
-- Wireless data transmission using WiFi/Bluetooth  
-- Mobile app monitoring using IoT  
+## Objective
+Create a people counting system using two buttons.
+
+## Components Used
+- Arduino UNO  
+- OLED Display  
+- 2 Push Buttons  
+- Breadboard  
+- Jumper Wires  
+
+## Features
+✔ Button 1 → Person Entered  
+✔ Button 2 → Person Left  
+✔ OLED shows visitor count  
+✔ Displays "Room Full" when count exceeds 20  
+
+## Circuit Diagram
+(Add circuit image here)
+
+## Project 2 Digital visitor counter
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/dbd7d35a-8f86-453b-b0ca-482a887f845d" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/f56003b0-1124-47ee-b532-5e4908aba90b" />
+
+## Learning Outcome
+- Counter logic  
+- Conditional statements  
+- Multi-button input handling  
 
 ---
 
-## Author
-Arduino based Digital Counter System project developed for learning embedded systems, hardware interfacing, and real-time display control.
+# 3️⃣ OLED Menu System
+
+## Objective
+Create a menu navigation system using buttons.
+
+## Components Used
+- Arduino UNO  
+- OLED Display  
+- Push Buttons  
+- LED  
+- Buzzer  
+
+## Menu
+
+```text
+> LED Control
+  Buzzer Test
+  About
+```
+
+## Features
+✔ Cursor navigation  
+✔ LED ON/OFF control  
+✔ Buzzer test option  
+✔ About screen display  
+
+## Circuit Diagram
+(Add circuit image here)
+
+## Project 3 OLED menue system
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/1b2051c4-6863-4be7-9d4f-efb70c654246" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/733cd463-666f-4198-b539-b14bcf2d0cab" />
+
+## Learning Outcome
+- Menu navigation  
+- Cursor movement  
+- Multiple screen handling  
+
+---
+
+# 4️⃣ Digital Stopwatch
+
+## Objective
+Create a stopwatch using millis() function.
+
+## Components Used
+- Arduino UNO  
+- OLED Display  
+- 2 Push Buttons  
+
+## Features
+✔ Start button  
+✔ Stop button  
+✔ Stopwatch display  
+✔ Reset functionality  
+
+## OLED Output
+
+```text
+Stopwatch
+12.54 sec
+```
+
+## Circuit Diagram
+(Add circuit image here)
+
+## Project 4 Digital stowatch
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/e799e0e8-b112-4902-9ee1-d5c782a3b2f2" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/1f4e3039-3072-4907-99fe-7930aebedf15" />
+
+## Learning Outcome
+- millis() timer  
+- Time calculations  
+- State management  
+
+---
+
+# 5️⃣ Reaction Time Game 2.0
+
+## Objective
+Measure user reaction speed after random delay.
+
+## Components Used
+- Arduino UNO  
+- OLED Display  
+- Push Button  
+- Buzzer  
+
+## Flow
+
+```text
+Get Ready...
+(wait random delay)
+PRESS NOW!
+```
+
+## Performance Analysis
+
+- <250 ms → Excellent  
+- 250–500 ms → Good  
+- >500 ms → Needs Practice  
+
+## Circuit Diagram
+(Add circuit image here)
+
+## Project 5 Reaction time game 2.0_
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/53309a93-8ac0-420c-92c9-4317fb5ec912" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/08e108f1-a879-471d-91d3-df3a89389eb6" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/25e6733d-27fb-488f-8c53-6621764c4355" />
+
+
+## Learning Outcome
+- Random delay generation  
+- Reaction time calculation  
+- User interaction systems  
+
+---
+
+# 6️⃣ Password Protected OLED System
+
+## Objective
+Create a password-based security system.
+
+## Example Password
+
+```text
+Button1 → Button1 → Button2 → Button1
+```
+
+## Components Used
+- Arduino UNO  
+- OLED Display  
+- Push Buttons  
+- Buzzer  
+
+## Features
+✔ Password input system  
+✔ Access Granted / Denied  
+✔ Buzzer feedback  
+
+## Circuit Diagram
+(Add circuit image here)
+
+## Project 6 Password protected OLED system
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/85003c63-85b2-4f31-9dbc-c4b8c76cc13c" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/85c7c3a5-ed77-4a91-b74e-fad2b39f7d7c" />
+
+## Learning Outcome
+- Security logic  
+- Pattern recognition  
+- Conditional programming  
+
+---
+
+# 7️⃣ Smart Dashboard (Challenge Project)
+
+## Objective
+Create an integrated smart dashboard.
+
+## OLED Display
+
+```text
+eARgle Labs
+Counter : 10
+Status : Active
+Time : 25 sec
+```
+
+## Features
+✔ OLED Display  
+✔ Counter  
+✔ Button Input  
+✔ Buzzer Feedback  
+✔ Timer using millis()  
+
+## Components Used
+- Arduino UNO  
+- OLED Display  
+- Buttons  
+- Buzzer  
+- LED  
+
+## Circuit Diagram
+(Add circuit image here)
+
+## Project 7 Day_end evaluation_
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/91c20e2f-607c-45c4-be8c-9d6e3f9b3fd9" />
+
+## Learning Outcome
+- Combining multiple modules  
+- Embedded UI design  
+- Timer-based applications  
+- Interactive system development  
+
+---
+
+# 📂 Folder Structure
+
+```text
+Day02/
+│── OLED_Counter.ino
+│── Visitor_Counter.ino
+│── OLED_Menu.ino
+│── Stopwatch.ino
+│── Reaction_Game.ino
+│── Password_System.ino
+│── Smart_Dashboard.ino
+│── README.md
+│
+└── images/
+    ├── oled_counter.jpg
+    ├── visitor_counter.jpg
+    ├── oled_menu.jpg
+    ├── stopwatch.jpg
+    ├── reaction_game.jpg
+    ├── password_system.jpg
+    └── smart_dashboard.jpg
+```
+
+---
+
+# 🛠 Technologies Used
+
+- Arduino IDE  
+- Embedded C/C++  
+- SSD1306 OLED Library  
+- Adafruit GFX Library  
+
+---
+
+# 🎯 Overall Learning Outcomes
+
+By completing these projects, I learned:
+
+- OLED Display interfacing  
+- Digital Input/Output handling  
+- Push button logic  
+- Buzzer integration  
+- Timer programming using millis()  
+- Menu system design  
+- Interactive embedded system development  
+- Real-time user feedback systems  
+
+---
